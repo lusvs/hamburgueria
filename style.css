@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(226, 223, 223);
+   justify-content: flex-start;
+   align-items: center;
+   
+}
+
+main{
+    padding-left: 50px;
+    height: 600px;
+}
+
+.lista{
+    padding-left: 60px;
+}
+
+
+footer{
+    padding-top: 10px;
+    height: 500px;
+    background-color: rgb(226, 223, 223);
+}
+
+/* footer h1{
+    padding-left: 50px;
+}
+
+footer h4{
+    padding-left: 100px;
+} */
+
+footer p{
+    padding-left: 150px;
+} 
+
+.fim{
+    text-align: center;
+} 
+
