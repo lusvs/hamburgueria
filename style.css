@@ -3,50 +3,77 @@
     margin: 0;
 }
 
-a{
-    
+a{  
     padding: 10px;
 }
 
-header{
-    display: flex;
+header{   
     width: 100%;
     height: 230px;
-    background-color: rgb(226, 223, 223);
-   justify-content: flex-start;
-   align-items: center;
-   
-}
-
-main{
-    padding-left: 50px;
-    height: 600px;
-}
-
-.lista{
-    padding-left: 60px;
-}
-
-
-footer{
-    padding-top: 10px;
-    height: 500px;
-    background-color: rgb(226, 223, 223);
-}
-
-footer h1{
-    padding-left: 50px;
-}
-
-footer h4{
-    padding-left: 100px;
-}
-
-footer p{
-    padding-left: 150px;
+    background-color: rgb(226, 223, 223);      
 } 
 
-.fim{
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.lob2{   
     text-align: center;
 } 
 
+.lob2 a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.lob2 a:hover{
+    color: rgb(177, 138, 13);
+    transition: .5s;
+    padding: 20px;
+    border-bottom: solid rgb(177, 138, 13);
+} 
+
+main{
+    padding-left: 50px;
+    height: 600px; 
+}
+
+.lista{
+    padding-left: 40px;
+}
+
+main h3{
+    padding-left: 30px;
+}
+
+main ul{
+    padding-left: 45px;
+}
+
+
+
+footer{
+    height: 500px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgb(226, 223, 223);
+}
+
+.inf{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.hf{
+    text-align: center;
+}
+.endereco{
+    text-align: center;
+}
+.ctt{
+    text-align: center;
+}
