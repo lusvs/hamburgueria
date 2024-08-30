@@ -14,26 +14,25 @@ header{
     display: flex; 
     justify-content: center;    
     align-items: center;
-    /* justify-content: space-around; */
+   /* justify-content: space-around;  */
 } 
 
-.logo{
+img{
     display: flex;
-    align-self: start;
+    align-self: self-start;
+   
 }
 
-/* .lob2{   
-   
-}  */
 
-.lob2 a{
+
+.lob1 a{
     color: rgb(0, 0, 0);
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
 }
 
-.lob2 a:hover{
+.lob1 a:hover{
     color: rgb(177, 138, 13);
     transition: .5s;
     padding: 20px;
@@ -57,10 +56,8 @@ main ul{
     padding-left: 45px;
 }
 
-
-
 footer{
-    height: 500px;
+    height: 400px;
     width: 100%;
     padding-top: 10px;
     background-color: rgb(226, 223, 223);
@@ -75,5 +72,39 @@ footer{
     display: flex;
     justify-content:space-around;
     text-align: center;
+    padding-top: 80px;
+    font-size: 21px; 
+}
+
+.lob2{   
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 30px;
+} 
+
+.lob2 a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.lob2 a:hover{
+    color: rgb(177, 138, 13);
+    transition: .5s;
+    padding: 20px;
+    border-bottom: solid rgb(177, 138, 13);
+} 
+
+.ps{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.ps p{
+    display: flex;
+    justify-content: space-around;
 }
 
