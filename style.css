@@ -10,18 +10,21 @@ a{
 header{   
     width: 100%;
     height: 230px;
-    background-color: rgb(226, 223, 223);      
+    background-color: rgb(226, 223, 223); 
+    display: flex; 
+    justify-content: center;    
+    align-items: center;
+    /* justify-content: space-around; */
 } 
 
 .logo{
     display: flex;
-    justify-content: flex-start;
-    align-self: center;
+    align-self: start;
 }
 
-.lob2{   
-    text-align: center;
-} 
+/* .lob2{   
+   
+}  */
 
 .lob2 a{
     color: rgb(0, 0, 0);
@@ -68,12 +71,9 @@ footer{
     padding-left: 50px;
 }
 
-.hf{
+.hec{
+    display: flex;
+    justify-content:space-around;
     text-align: center;
 }
-.endereco{
-    text-align: center;
-}
-.ctt{
-    text-align: center;
-}
+
