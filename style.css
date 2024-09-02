@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-/* a{  
-    padding: 10px;
-} */
-
-/*  */
 header{   
     width: 100%;
     height: 120px;
@@ -46,6 +41,7 @@ header{
 } 
 
 main{
+    padding-top: 120px;
     padding-left: 50px;
     height: 600px; 
 }
@@ -108,5 +104,9 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.ps a{
+   padding: 5px;
 }
 
