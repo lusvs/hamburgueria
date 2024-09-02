@@ -12,7 +12,9 @@ header{
     width: 100%;
     height: 120px;
     background-color: rgb(226, 223, 223); 
-    display: flex;    
+    display: flex;   
+    position: fixed; 
+    top: 0;
 } 
 
 .logo{
