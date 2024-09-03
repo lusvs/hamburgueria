@@ -16,7 +16,7 @@ header{
 .logo{
     display: flex;
     height: 130px;
-    align-self: center;
+    /* align-self: center; */
     justify-content: start;
 }
 
@@ -42,8 +42,7 @@ header{
 
 main{
     padding-top: 120px;
-    height: 1000px; 
-    
+    height: 1000px;    
 }
 
 .burguer{
@@ -55,19 +54,21 @@ main{
     padding: 10px 50px;
 } 
 
-/*para o cardápio*/
-/* main h3{
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* para o cardápio */
+main h3{
     padding-left: 30px;
 }
 
 /*para o cardápio*/
-/* main ul{
+main ul{
     padding-left: 45px;
-} */ 
-
-/* .cardapio{
-    padding-left: 50px;
-} */
+}
 
 footer{
     height: 400px;
@@ -113,7 +114,7 @@ footer h1{
 .ps{
     display: flex;
     justify-content: end;
-    padding-top: 50px;      
+    padding-top: 3%;      
 }
 
 .ps a{
