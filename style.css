@@ -10,6 +10,7 @@ header{
     display: flex;   
     position: fixed; 
     top: 0;
+    padding: 0% 10%;
 } 
 
 .logo{
@@ -17,7 +18,6 @@ header{
     height: 130px;
     align-self: center;
     justify-content: start;
-    padding-left: 7%;
 }
 
 .lob1{
@@ -42,41 +42,42 @@ header{
 
 main{
     padding-top: 120px;
-    /* padding-left: 50px; */
     height: 1000px; 
+    
 }
-
-.lista{
-    padding-left: 40px;
-}
-
-/*para o cardápio*/
-main h3{
-    padding-left: 30px;
-}
-
-/*para o cardápio*/
-main ul{
-    padding-left: 45px;
-}
-
-/* .cardapio{
-    padding-left: 50px;
-} */
 
 .burguer{
     width: 100%;
     height: 500px;
 }
 
+.lista{
+    padding: 10px 50px;
+} 
+
+/*para o cardápio*/
+/* main h3{
+    padding-left: 30px;
+}
+
+/*para o cardápio*/
+/* main ul{
+    padding-left: 45px;
+} */ 
+
+/* .cardapio{
+    padding-left: 50px;
+} */
+
 footer{
     height: 400px;
     width: 100%;
+
     padding-top: 10px;
     background-color: rgb(226, 223, 223);
 }
 
-.inf{
+footer h1{
     padding-top: 10px;
     padding-left: 50px;
 }
@@ -85,13 +86,13 @@ footer{
     display: flex;
     justify-content:space-around;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 70px;
     font-size: 21px; 
 }
 
 .lob2{   
    text-align: center;
-   padding-top: 40px;
+   padding-top: 30px;
    padding-bottom: 30px;
 } 
 
@@ -111,11 +112,11 @@ footer{
 
 .ps{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: end;
+    padding-top: 50px;      
 }
 
 .ps a{
-   padding: 5px;
+     padding: 5px;
 }
 
