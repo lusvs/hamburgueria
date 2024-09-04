@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{   
+    width: 100%;
+    height: 120px;
+    background-color: rgb(226, 223, 223);
+    
+    display: flex;   
+    position: fixed; 
+    padding: 0% 10%;
+} 
+
+.logo{
+    display: flex;
+    height: 130px;
+    /* align-self: center; */
+    justify-content: start;
+}
+
+.lob1{
+    display: flex;
+    align-self: center;
+    padding-left: 18%;
+}
+
+.lob1 a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.lob1 a:hover{
+    color: rgb(202, 167, 52);
+    transition: .7s;
+    padding: 20px;
+    border-bottom: solid rgb(177, 138, 13);
+} 
+
+
+

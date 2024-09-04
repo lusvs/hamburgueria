@@ -1,0 +1,68 @@
+main{
+    padding-top: 120px;
+    height: 1500px;    
+}
+
+.burguer{
+    width: 100%;
+    height: 500px;
+}
+
+.qs{
+    width: 100%;
+    height: 200px;
+    
+    background-color: black;
+    color: white;
+} 
+
+.qs h1{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.qs p{
+    padding-left: 80px;
+}
+
+.cardapio h1{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.cardapio li{
+    padding: 2px;
+}
+ 
+.lista{
+    padding: 10px 50px;
+}
+
+.lista h2{
+    padding-left: 30px;
+}
+
+.lista h3{
+    padding-left: 50px;
+}
+
+.lista ul{
+    padding-left: 60px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+/* para o cardápio */
+main h3{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+/*para o cardápio*/
+main ul{
+    padding-left: 45px;
+} 
