@@ -9,11 +9,18 @@ header{
       
     display: flex;   
     position: fixed; 
-    justify-content: space-between;
-    align-items: center;
-
+    
     background-color: rgb(226, 223, 223);
 } 
+
+header div{
+    width: 100%;
+
+    margin: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo{    
     height: 130px;
