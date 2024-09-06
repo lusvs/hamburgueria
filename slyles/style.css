@@ -5,13 +5,15 @@
 
 header{   
     width: 100%;
-    height: 120px;
+    height: 100px;
       
     display: flex;   
-    position: fixed; 
+    position: fixed;
     
-    background-color: rgb(226, 223, 223);
-} 
+    /* background-color: rgb(226, 223, 223); */
+    background-image: radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20));
+    color: white;
+}
 
 header div{
     width: 100%;
@@ -23,14 +25,14 @@ header div{
 }
 
 .logo{    
-    height: 130px;
+    height: 100px;
 }
 
 .lob1 a{            
     padding: 15px;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .lob1 a:hover{

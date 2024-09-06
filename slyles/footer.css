@@ -3,7 +3,9 @@ footer{
     width: 100%;
 
     padding-top: 10px;
-    background-color: rgb(226, 223, 223);
+    /* background-color: rgb(226, 223, 223); */
+    background-image: radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20));
+    color: white;
 }
 
 footer h1{
@@ -20,15 +22,13 @@ footer h1{
 }
 
 .lob2{   
-    /* display: flex;
-    justify-content: center; */
    text-align: center;
    padding-top: 30px;
    padding-bottom: 30px;
 } 
 
 .lob2 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
@@ -68,12 +68,14 @@ footer h1{
     align-items: center;
 
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(214, 214, 214);
-    color: black;
+    /* background-color: rgb(214, 214, 214);
+    color: black; */
+    background-color: #1a1a1a;
+    color: rgb(88, 85, 85);
 }
 
 .footer-fim a{
-    color: black;
+    color: rgb(88, 85, 85);
     text-decoration: none;
 }
 
