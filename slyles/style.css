@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    
 }
 
 header{   
@@ -57,6 +59,7 @@ header.rolagem{
     border-bottom: solid rgb(177, 138, 13);
     color: rgb(202, 167, 52);
 }
+
 
 
 
