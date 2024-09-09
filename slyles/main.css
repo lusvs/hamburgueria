@@ -1,3 +1,9 @@
+main, html {
+    height: 100%; /* Faz com que o <html> e o <body> ocupem 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+}
+
 main{
     width: 100%;
 }
@@ -28,29 +34,23 @@ main ul{
     background-size: cover;
 }
 
-.arrumando-id{
-    width: 100%;    
-    height: 100px;
-
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-    background-image: radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20));
-    color: white;
+.burguer {
+    /* background-image: url('sua-imagem.jpg'); Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área disponível */
+    background-position: center; /* Centraliza a imagem na tela */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 100vh; /* Define a altura da div para 100% da altura da viewport */
 }
 
-.arrumando-id div{
-    width: 100%;    
-    margin: 0px 5%;
-} 
 
 .quem-somos{   
     width: 100%;
-    height: 100px;
+    height: 150px;
       
     display: flex; 
-    align-items: flex-start;
+    align-items: center;
+    
+    scroll-margin-top: 100px; /* altura do seu header fixo */
        
     background-image: radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20));
     color: white;
@@ -58,7 +58,8 @@ main ul{
 
 .quem-somos div{
     width: 100%;    
-    margin: 0px 5%;
+    margin: 0px 5%; 
+    
 } 
 
 .quem-somos p{
@@ -66,6 +67,7 @@ main ul{
 }
 
 .cardapio{
+    scroll-margin-top: 100px; /* altura do seu header fixo */
     color: aliceblue;
 }
 
@@ -104,8 +106,8 @@ main ul{
     flex-direction: row-reverse;
     align-items: center;
 
-    /* background-color: rgb(58, 58, 151); */
-    background-color: rgb(40, 40, 138);
+    background-color: rgb(30, 30, 73);
+    /* background-color: rgb(40, 40, 138); */
 }
 
 .cardapio-sobremesas{   
