@@ -25,23 +25,20 @@ main ul{
     padding-left: 45px;
 } 
 
-.burguer{
-    width: 100%;
+/* TEXTAR NO SENAI ANTES DE APAGAR */
+/* .burguer{   
     height: 610px;
-
-    background-position: center;
     background-repeat: none;
-    background-size: cover;
-}
+} */
 
 .burguer {
+    width: 100%;
     /* background-image: url('sua-imagem.jpg'); Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
     background-size: cover; /* Faz com que a imagem cubra toda a área disponível */
     background-position: center; /* Centraliza a imagem na tela */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     height: 100vh; /* Define a altura da div para 100% da altura da viewport */
 }
-
 
 .quem-somos{   
     width: 100%;
@@ -107,7 +104,6 @@ main ul{
     align-items: center;
 
     background-color: rgb(30, 30, 73);
-    /* background-color: rgb(40, 40, 138); */
 }
 
 .cardapio-sobremesas{   
