@@ -115,3 +115,27 @@ main ul{
 
     background-color: rgb(30, 30, 61);
 }
+
+@media (max-width: 376px) {
+    .quem-somos{
+        height: 100%;
+    }
+
+    .cardapio img{
+        height: 200px;
+    }
+
+    .cardapio-sobremesas{
+        flex-direction: column;
+    }
+
+    .cardapio-bebidas{
+        flex-direction: column;
+    }
+
+    .cardapio-lanches{
+        flex-direction: column;
+    }
+
+    
+}

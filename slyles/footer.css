@@ -49,17 +49,11 @@ footer h1{
 .ps{
     display: flex;
     justify-content: end;
+    align-items: center;
     padding-top: 3%;      
 }
 
-.ps p{
-    display: flex;
-    align-items: center;
-}
-
 .ps a{
-    display: flex;
-    align-items: center;
     padding: 5px;
 }
 
@@ -87,4 +81,14 @@ footer h1{
     color: rgb(61, 146, 202);
 }
 
+@media (max-width: 376px) {
+    .hec{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ps{
+        justify-content: center;
+    }
+}
 
