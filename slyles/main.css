@@ -92,7 +92,7 @@ main ul{
     justify-content: space-around;
     align-items: center;
 
-    background-color: rgb(30, 30, 61);
+    background-image: radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44));
 }
 
 .cardapio-bebidas{   
@@ -103,7 +103,7 @@ main ul{
     flex-direction: row-reverse;
     align-items: center;
 
-    background-color: rgb(30, 30, 73);
+    background-image: radial-gradient(circle, #2c2b2b,#313131,rgb(20, 20, 20));   
 }
 
 .cardapio-sobremesas{   
@@ -113,7 +113,7 @@ main ul{
     justify-content: space-around;
     align-items: center;
 
-    background-color: rgb(30, 30, 61);
+    background-image: radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44));
 }
 
 @media (max-width: 376px) {
