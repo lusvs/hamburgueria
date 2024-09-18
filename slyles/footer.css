@@ -81,7 +81,7 @@ footer h1{
     color: rgb(61, 146, 202);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
     .hec{
         flex-direction: column;
         gap: 20px;

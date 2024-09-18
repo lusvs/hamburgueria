@@ -54,7 +54,30 @@ header.rolagem{
     color: rgb(202, 167, 52);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
+
+    header{
+        height: 70px;
+    }
+
+    header.rolagem{
+        height: 80px;
+    }
+
+    .logo{
+        height: 70px;
+    }
+
+    .lob1{
+        display: flex;
+    }
+
+    .lob1 a{
+        
+        font-size: 15px;
+
+    }
+
 }
 
 

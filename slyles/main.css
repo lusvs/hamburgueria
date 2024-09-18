@@ -116,7 +116,7 @@ main ul{
     background-image: radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44));
 }
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
     .quem-somos{
         height: 100%;
         padding: 30px 0px;
