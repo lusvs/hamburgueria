@@ -17,7 +17,7 @@ header{
 }
 
 header.rolagem{
-    height: 100px;
+    height: 120px;
 
     background-color: rgb(20, 20, 20);
 }
@@ -57,11 +57,11 @@ header.rolagem{
 @media (max-width: 500px) {
 
     header{
-        height: 70px;
+        height: 80px;
     }
 
     header.rolagem{
-        height: 80px;
+        height: 90px;
     }
 
     .logo{
