@@ -95,6 +95,16 @@ main ul{
     background-image: radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44));
 }
 
+.list-lc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-lc p{
+    font-size: 12px;
+}
+
 .cardapio-bebidas{   
     height: 520px;
 
