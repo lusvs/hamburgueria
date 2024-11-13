@@ -1,5 +1,4 @@
 footer{
-    height: 100%;
     width: 100%;
 
     padding-top: 10px;
@@ -27,8 +26,8 @@ footer h1{
 
 .lob2{   
    text-align: center;
-   padding-top: 30px;
-   padding-bottom: 30px;
+   padding-top: 60px;
+   padding-bottom: 70px;
    
 } 
 
@@ -45,17 +44,6 @@ footer h1{
     padding: 20px;
     border-bottom: solid rgb(177, 138, 13);
 } 
-
-/* .ps{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-top: 3%;      
-}
-
-.ps a{
-    padding: 5px;
-} */
 
 .footer-creditos{
     width: 100%;
