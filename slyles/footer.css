@@ -46,7 +46,7 @@ footer h1{
     border-bottom: solid rgb(177, 138, 13);
 } 
 
-.ps{
+/* .ps{
     display: flex;
     justify-content: end;
     align-items: center;
@@ -55,7 +55,7 @@ footer h1{
 
 .ps a{
     padding: 5px;
-}
+} */
 
 .footer-creditos{
     width: 100%;
