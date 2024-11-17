@@ -35,7 +35,7 @@ header.rolagem{
 
     text-decoration: none;
 
-    color: white;
+    color: var(--color-p);
 }
 
 .lob1 a:hover{
@@ -43,8 +43,8 @@ header.rolagem{
 
     transition: .5s;
 
-    border-bottom: solid rgb(202, 167, 52);
-    color: rgb(202, 167, 52);
+    border-bottom: solid var(--color-hover);
+    color: var(--color-hover);
 }
 
 @media (max-width: 500px) {

@@ -6,8 +6,8 @@
 }
 
 :root{
-    --color-hover-p: (rgb(202, 167, 52));
-    --color-p: (white);
+    --color-hover: rgb(202, 167, 52);
+    --color-p: white;
     --backg-img-main-ls: (radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44)));
     --backg-img-footer: (radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20)));
 }
