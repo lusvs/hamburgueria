@@ -49,8 +49,8 @@ main ul{
     
     scroll-margin-top: 100px; /* altura do seu header fixo */
        
-    background-image: radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20));
-    color: white;
+    background-image: var(--backg-img-footer);
+    color: var(--color-p);
 } 
 
 .quem-somos div{
@@ -65,7 +65,7 @@ main ul{
 
 .cardapio{
     scroll-margin-top: 100px; /* altura do seu header fixo */
-    color: aliceblue;
+    color: var(--color-p);
 }
 
 .cardapio h1{
@@ -92,7 +92,7 @@ main ul{
     justify-content: space-around;
     align-items: center;
 
-    background-image: radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44));
+    background-image: var(--backg-img-main-ls);
 }
 
 .list-lc{
@@ -123,7 +123,7 @@ main ul{
     justify-content: space-around;
     align-items: center;
 
-    background-image: radial-gradient(circle, #3f3e3e,#313131,rgb(44, 44, 44));
+    background-image: var(--backg-img-main-ls);
 }
 
 @media (max-width: 500px) {
