@@ -2,8 +2,7 @@ footer{
     width: 100%;
 
     padding-top: 10px;
-    /* background-color: rgb(226, 223, 223); */
-    background-image: radial-gradient(circle, #353535,#1f1f1f,rgb(20, 20, 20));
+    background-image: var(--backg-img-footer);
     color: white;
 }
 
@@ -32,17 +31,17 @@ footer h1{
 } 
 
 .lob2 a{
-    color: rgb(255, 255, 255);
+    color: var(--color-p);
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
 }
 
 .lob2 a:hover{
-    color: rgb(202, 167, 52);
+    color: var(--color-hover);
     transition: .5s;
     padding: 20px;
-    border-bottom: solid rgb(202, 167, 52);
+    border-bottom: solid var(--color-hover);
 } 
 
 .footer-creditos{
