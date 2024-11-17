@@ -3,7 +3,7 @@ footer{
 
     padding-top: 10px;
     background-image: var(--backg-img-footer);
-    color: white;
+    color: var(--color-p);
 }
 
 footer h1{
