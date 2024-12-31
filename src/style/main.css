@@ -85,7 +85,7 @@ main ul{
     align-items: center;
 }
 
-.cardapio-lanches{   
+.cardapio-lanches-sobremesas{   
     height: 520px;
 
     display: flex;
@@ -116,15 +116,6 @@ main ul{
     background-image: radial-gradient(circle, #2c2b2b,#313131,rgb(20, 20, 20));   
 }
 
-.cardapio-sobremesas{   
-    height: 520px;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    background-image: var(--backg-img-main-ls);
-}
 
 @media (max-width: 500px) {
     .quem-somos{
@@ -136,9 +127,9 @@ main ul{
         height: 200px;
     }
 
-    .cardapio-sobremesas{
+    .cardapio-lanches-sobremesas{
         flex-direction: column;
-        padding: 40px 0px;
+        padding:40px 0px ;
         gap: 50px;
     }
 
@@ -149,11 +140,7 @@ main ul{
         gap: 50px;
     }
 
-    .cardapio-lanches{
-        flex-direction: column;
-        padding:40px 0px ;
-        gap: 50px;
-    }
+
 
     
 
