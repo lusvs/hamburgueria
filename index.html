@@ -16,19 +16,24 @@
 
 <body>
     <header id="header">
-        <div class="container">
+        <nav>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
 
             <a href="http://127.0.0.1:5500/index.html"><img class="logo" src="src/assets/img/logo-branca-png.png" alt="Logo da Tá na Chapa"></a>
 
             <!-- Opções do header -->
-            <nav class="lob1">
-                <a href="#home" aria-label="Ir para Home" target="">Home</a>
-                <a href="#sobre" aria-label="Ir para Quem Somos">Sobre</a>
-                <a href="#cardapio" aria-label="Ir para Cardápio">Cardápio</a>
-                <a href="#contato" aria-label="Ir para Contato">Contato</a>
-            </nav> <!--lob1-->
+            <ul class="nav-list">
+                <li><a href="#home" aria-label="Ir para Home" target="">Home</a></li>
+                <li><a href="#sobre" aria-label="Ir para Quem Somos">Sobre</a></li>
+                <li><a href="#cardapio" aria-label="Ir para Cardápio">Cardápio</a></li>
+                <li><a href="#contato" aria-label="Ir para Contato">Contato</a></li>
+            </ul> <!--lob1-->
 
-        </div> <!--container-->
+        </nav> <!--container-->
     </header>
 
     <main>
@@ -180,6 +185,7 @@
     </footer>
 
     <script src="menu.js"></script>
+    <script src="mobile-navbar.js"></script>
 </body>
 
 </html>
