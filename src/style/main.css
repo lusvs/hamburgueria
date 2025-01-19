@@ -47,7 +47,7 @@ main ul{
     display: flex; 
     align-items: center;
     
-    scroll-margin-top: 13vh; /* altura do seu header fixo */
+    scroll-margin-top: 100px; /* altura do seu header fixo */
        
     background-image: var(--backg-img-footer);
     color: var(--color-p);
@@ -64,7 +64,7 @@ main ul{
 }
 
 .cardapio{
-    scroll-margin-top: 13vh; /* altura do seu header fixo */
+    scroll-margin-top: 100px; /* altura do seu header fixo */
     color: var(--color-p);
 }
 
@@ -122,6 +122,11 @@ main ul{
     .quem-somos{
         height: 100%;
         padding: 30px 0px;
+        scroll-margin-top: 13vh; /* altura do seu header fixo */
+    }
+
+    .cardapio{
+        scroll-margin-top: 13vh /* altura do seu header fixo */
     }
 
     .cardapio img{
