@@ -4,6 +4,7 @@ header{
       
     display: flex;   
     position: fixed;
+    
     top: 0px;
     left: 0px;
     transition: .5s;   
@@ -80,12 +81,8 @@ header a{
         height: 15vh; 
     }
 
-    header nav{
-        flex-direction: row-reverse;
-    }
-
     .logo{
-        height: 60px;
+        height: 70px;
     } 
 
     .nav-list{
