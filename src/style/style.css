@@ -68,28 +68,32 @@ header a{
 
 @media (max-width: 500px) {
 
-    header{
-        height: 80px;
-    }
-
-    header.rolagem{
-        height: 20vh;
-    }
-
-    .logo{
-        height: 70px;
-    }
-
     body {
         overflow-x: hidden;
     }
 
+    header{
+        height: 13vh;
+    }
+
+    header.rolagem{
+        height: 15vh; 
+    }
+
+    header nav{
+        flex-direction: row-reverse;
+    }
+
+    .logo{
+        height: 60px;
+    } 
+
     .nav-list{
         position: absolute;
-        top: 20vh;
+        top: 15vh;
         right: 0;
         width: 50vw;
-        height: 90vh;
+        height: 85vh;
         color: white;
         background-color: rgba(20, 20, 20, 0.651);
         flex-direction: column;
