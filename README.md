@@ -1,2 +1,2 @@
 # hamburgueria
-Desafio que fiz com meu amg
+Criei um site para uma hamburgueria utilizando HTML, CSS e JavaScript. O principal objetivo foi desenvolver uma plataforma moderna e funcional, e o resultado ficou incrível! Além disso, o site já está totalmente responsivo, garantindo uma experiência de navegação perfeita em dispositivos móveis, como smartphones e tablets, além dos desktops. A estruturação do conteúdo foi feita com HTML, o design foi criado com CSS e, para deixar a navegação ainda mais interativa e dinâmica, usei JavaScript. Agora, os clientes podem explorar o cardápio, fazer pedidos e conhecer mais sobre a hamburgueria de maneira fácil e agradável, em qualquer dispositivo.
