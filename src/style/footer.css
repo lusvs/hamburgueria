@@ -23,6 +23,11 @@ footer h1{
     list-style-type: none;
 }
 
+.hec a{
+    color: rgb(0, 238, 255);
+    text-decoration: none;
+}
+
 .lob2{   
    text-align: center;
    padding-top: 60px;
